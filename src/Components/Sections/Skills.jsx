@@ -29,7 +29,7 @@ function Skills(props) {
                     </div>
                    <div className='h-25 w-50 border-amber-200/40 rounded-md border shadow-md flex hover:translate-y-1 duration-300 shadow-amber-100 gap-2'>
                     <div className='w-15 h-15 mt-3 ml-4'>
-                        <IconImage src= "/public/icons8-github-96.png"/>
+                        <IconImage src= "/icons8-github-96.png"/>
                     </div> 
                     <div>
                         <div className='text-gray-300 mt-4 font-bold'><Paragraph p = "GITHUB"/></div>
@@ -39,7 +39,7 @@ function Skills(props) {
 
                    <div className='h-25 w-50 border-amber-200/40 rounded-md border flex hover:translate-y-1 duration-300 shadow-md shadow-amber-100 gap-2'>
                     <div className='w-15 h-15 mt-3 ml-4'>
-                        <IconImage src= "/public/react-logo.png"/>
+                        <IconImage src= "/react-logo.png"/>
                     </div> 
                     <div>
                         <div className='text-gray-300 mt-4 font-bold'><Paragraph p = "REACT"/></div>
@@ -49,7 +49,7 @@ function Skills(props) {
 
                    <div className='h-25 w-50 border-amber-200/40 rounded-md border flex hover:translate-y-1 duration-300  shadow-md shadow-amber-100 gap-2'>
                     <div className='w-15 h-15 mt-3 ml-4'>
-                        <IconImage src= "/public/javascript-logo.webp"/>
+                        <IconImage src= "/javascript-logo.webp"/>
                     </div> 
                     <div>
                         <div className='text-gray-300 mt-4 font-bold'><Paragraph p = "JAVA SCRIPT"/></div>
@@ -59,7 +59,7 @@ function Skills(props) {
 
                    <div className='h-25 w-50 border-amber-200/40 rounded-md border flex hover:translate-y-1 duration-300 shadow-md shadow-amber-100 gap-2'>
                     <div className='w-15 h-15 mt-3 ml-4'>
-                        <IconImage src= "/public/node-logo.webp"/>
+                        <IconImage src= "/node-logo.webp"/>
                     </div> 
                     <div>
                         <div className='text-gray-300 mt-4 font-bold'><Paragraph p = "NODE JS"/></div>

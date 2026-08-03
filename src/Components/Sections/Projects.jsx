@@ -18,7 +18,7 @@ function Projects(props) {
 
                 <div className='grid grid-cols-1 md:grid-cols-2 mt-20 gap-5'>
                     <div className='h-130 w-100 border border-amber-200/40 shadow-lg shadow-amber-200 rounded-md hover:translate-y-1 duration-300'>
-                       <Image src = "/public/Screenshot From 2026-07-29 19-41-45.png"/>
+                       <Image src = "/Screenshot From 2026-07-29 19-41-45.png"/>
                        <div className='text-xl font-bold text-gray-300 m-5'>
                         <Heading1 text = "Rock, Paper, Scissors"/>
                        </div>
@@ -61,7 +61,7 @@ function Projects(props) {
 
                     
                     <div className='h-130 w-100 border border-amber-200/40 shadow-lg shadow-amber-200 rounded-md hover:translate-y-1 duration-300'>
-                       <Image src = "/public/Screenshot From 2026-07-10 19-26-21.png"/>
+                       <Image src = "/Screenshot From 2026-07-10 19-26-21.png"/>
                        <div className='text-xl font-bold text-gray-300 m-5'>
                         <Heading1 text = "Gym Website"/>
                        </div>
