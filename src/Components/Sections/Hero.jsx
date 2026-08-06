@@ -10,7 +10,7 @@ import { Download } from 'lucide-react';
 
 function Hero(props) {
     return (
-        <div id = "home" className='w-full mx-auto bg-zinc-950 overflow-hidden relative shadow-2xl h-140 border border-t-zinc-800/80'>
+        <div id = "home" className='w-full mx-auto bg-zinc-950 overflow-hidden relative shadow-2xl h-150 border border-t-zinc-800/80'>
             <div className='flex flex-col items-center mt-30'>
             <div className='text-[#b89b5e] text-sm sm:text-base tracking-widest mb-4 text-center'>
                 <Heading1 text = "HELLO, I'M"/>
