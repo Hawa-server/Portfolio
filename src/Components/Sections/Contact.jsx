@@ -71,7 +71,7 @@ function Contact(props) {
                                 >
                                     <div className='h-15 w-15 rounded-full border-gray-100/50 border mt-5'>
                                         <div className='h-10 w-10 m-2'>
-                                            <IconImage src="/public/icons8-github-96.png" />
+                                            <IconImage src="/icons8-github-96.png" />
                                         </div>
                                     </div>
                                 </a>
