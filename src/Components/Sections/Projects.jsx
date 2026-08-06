@@ -7,18 +7,18 @@ import Paragraph from '../UI/Paragraph';
 
 function Projects(props) {
     return (
-        <div className='className="w-full mx-auto bg-black overflow-x-hidden lg:overflow-x-hidden relative shadow-2xl h-250'>
+        <div id = "projects" className='className="w-full mx-auto bg-zinc-950 overflow-x-hidden lg:overflow-x-hidden relative shadow-2xl h-330 md:h-250'>
             <div className='max-w-4xl mx-auto px-4'> 
-                <div className='text-[#b89b5e] text-xl gap-5 mt-40 text-center font-bold tracking-widest'>
+                <div className='text-[#b89b5e] text-xl gap-5 mt-10 text-center font-bold tracking-widest'>
                     <Heading1 text = "PROJECTS"/>
                 </div>
-                <div className='text-3xl text-gray-400 font-bold text-center mt-10'>
+                <div className='text-3xl text-gray-300 font-bold text-center mt-10'>
                     <Heading label = "Featured Projects"/>
                 </div>
 
                 <div className='grid grid-cols-1 md:grid-cols-2 mt-20 gap-5'>
-                    <div className='h-130 w-100 border border-amber-200/40 shadow-lg shadow-amber-200 rounded-md hover:translate-y-1 duration-300'>
-                       <Image src = "/public/Screenshot From 2026-07-29 19-41-45.png"/>
+                    <div className='w-100 border border-[#b89b5e]/40 shadow-lg shadow-[#b89b5e]/20 rounded-md hover:translate-y-1 duration-300 h-130'>
+                       <Image src = "/Screenshot From 2026-07-29 19-41-45.png"/>
                        <div className='text-xl font-bold text-gray-300 m-5'>
                         <Heading1 text = "Rock, Paper, Scissors"/>
                        </div>
@@ -53,15 +53,15 @@ function Projects(props) {
                         <div className='mt-4'>
                             <a href = "https://myrock.netlify.app/"
                             target = "-blank"
-                            rel='noopener noreferrer' className='text-gray-300 hover:transition m-35 rounded-md py-2 px-4 border border-amber-100'>
+                            rel='noopener noreferrer' className='text-gray-300 hover:transition m-10 rounded-md py-2 px-4 border border-amber-100'>
                                 View
                             </a>
                         </div>
                     </div>
 
                     
-                    <div className='h-130 w-100 border border-amber-200/40 shadow-lg shadow-amber-200 rounded-md hover:translate-y-1 duration-300'>
-                       <Image src = "/public/Screenshot From 2026-07-10 19-26-21.png"/>
+                    <div className='w-100 border border-[#b89b5e]/40 shadow-lg shadow-[#b89b5e]/20 rounded-md hover:translate-y-1 duration-300 h-130'>
+                       <Image src = "/Screenshot From 2026-07-10 19-26-21.png"/>
                        <div className='text-xl font-bold text-gray-300 m-5'>
                         <Heading1 text = "Gym Website"/>
                        </div>
@@ -86,10 +86,10 @@ function Projects(props) {
                        </div>
 
 
-                        <div className='mt-10'>
+                        <div className='mt-7'>
                             <a href = "https://keeppeak.netlify.app/"
-                            target = "-blank"
-                            rel='noopener noreferrer' className='text-gray-300 hover:transition m-35 rounded-md py-2 px-4 border border-amber-100'>
+                            target = "_blank"
+                            rel='noopener noreferrer' className='text-gray-300 hover:transition m-10 rounded-md py-2 px-4 border border-amber-100'>
                                 View
                             </a>
                         </div>
