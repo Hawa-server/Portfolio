@@ -6,20 +6,20 @@ import Paragraph from '../UI/Paragraph';
 
 function Skills(props) {
     return (
-        <div id = "skills" className='className="w-full mx-auto bg-black overflow-x-hidden lg:overflow-hidden relative shadow-2xl h-190'>
+        <div id = "skills" className='w-full mx-auto bg-zinc-950 overflow-x-hidden lg:overflow-hidden relative shadow-2xl h-300 md:h-190'>
             <div className='max-w-4xl mx-auto px-4'> 
                 <div className='text-[#b89b5e] text-xl mt-40 text-center font-bold tracking-widest'>
                     <Heading1 text = "SKILLS"/>
                 </div>
-                <div className='text-3xl text-gray-400 font-bold text-center mt-10'>
+                <div className='text-3xl text-gray-300 font-bold text-center mt-10'>
                     <Heading label = "My Expertise"/>
                 </div>
                 <div className='text-gray-300 mt-10 mx-auto max-w-lg text-lg'>
                     <Paragraph p = "These are the technology and design tools I use to create responsive, accessible, and high-performance digital experiences."/>
                 </div>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-20'>
-                   <div className='h-25 w-50 border-amber-200/40 rounded-md border shadow-md flex hover:translate-y-1 duration-300 shadow-amber-100 gap-2'>
-                    <div className='w-15 h-15 mt-3 ml-4'>
+                   <div className='w-full h-25 border-[#b89b5e]/40 rounded-md border shadow-md flex hover:translate-y-1 duration-300 shadow-[#b89b5e]/20 gap-2'>
+                    <div className='w-15 h-15 mt-3 ml-4 shrink-0'>
                         <IconImage src= "/html-logo.webp"/>
                     </div> 
                     <div>
@@ -27,8 +27,8 @@ function Skills(props) {
                         <div className='text-gray-300'><Paragraph p = "Markup"/></div>
                    </div>
                     </div>
-                   <div className='h-25 w-50 border-amber-200/40 rounded-md border shadow-md flex hover:translate-y-1 duration-300 shadow-amber-100 gap-2'>
-                    <div className='w-15 h-15 mt-3 ml-4'>
+                   <div className='w-full h-25 border-[#b89b5e]/40 rounded-md border shadow-md flex hover:translate-y-1 duration-300 shadow-[#b89b5e]/20 gap-2'>
+                    <div className='w-15 h-15 mt-3 ml-4 shrink-0'>
                         <IconImage src= "/icons8-github-96.png"/>
                     </div> 
                     <div>
@@ -37,8 +37,8 @@ function Skills(props) {
                     </div>
                    </div>
 
-                   <div className='h-25 w-50 border-amber-200/40 rounded-md border flex hover:translate-y-1 duration-300 shadow-md shadow-amber-100 gap-2'>
-                    <div className='w-15 h-15 mt-3 ml-4'>
+                   <div className='w-full h-25 border-[#b89b5e]/40 rounded-md border shadow-md flex hover:translate-y-1 duration-300 shadow-[#b89b5e]/20 gap-2'>
+                    <div className='w-15 h-15 mt-3 ml-4 shrink-0'>
                         <IconImage src= "/react-logo.png"/>
                     </div> 
                     <div>
@@ -47,8 +47,8 @@ function Skills(props) {
                     </div>
                    </div>
 
-                   <div className='h-25 w-50 border-amber-200/40 rounded-md border flex hover:translate-y-1 duration-300  shadow-md shadow-amber-100 gap-2'>
-                    <div className='w-15 h-15 mt-3 ml-4'>
+                   <div className='w-full h-25 border-[#b89b5e]/40 rounded-md border shadow-md flex hover:translate-y-1 duration-300 shadow-[#b89b5e]/20 gap-2'>
+                    <div className='w-15 h-15 mt-3 ml-4 shrink-0'>
                         <IconImage src= "/javascript-logo.webp"/>
                     </div> 
                     <div>
@@ -57,8 +57,8 @@ function Skills(props) {
                     </div>
                    </div>
 
-                   <div className='h-25 w-50 border-amber-200/40 rounded-md border flex hover:translate-y-1 duration-300 shadow-md shadow-amber-100 gap-2'>
-                    <div className='w-15 h-15 mt-3 ml-4'>
+                   <div className='w-full h-25 border-[#b89b5e]/40 rounded-md border shadow-md flex hover:translate-y-1 duration-300 shadow-[#b89b5e]/20 gap-2'>
+                    <div className='w-15 h-15 mt-3 ml-4 shrink-0'>
                         <IconImage src= "/node-logo.webp"/>
                     </div> 
                     <div>
@@ -67,8 +67,8 @@ function Skills(props) {
                     </div>
                    </div>
 
-                   <div className='h-25 w-50 border-amber-200/40 rounded-md border flex hover:translate-y-1 duration-300 shadow-amber-100 gap-2 shadow-md'>
-                    <div className='w-15 h-15 mt-3 ml-4'>
+                   <div className='w-full h-25 border-[#b89b5e]/40 rounded-md border shadow-md flex hover:translate-y-1 duration-300 shadow-[#b89b5e]/20 gap-2'>
+                    <div className='w-15 h-15 mt-3 ml-4 shrink-0'>
                         <IconImage src= "/icons8-tailwind-css-96.png"/>
                     </div> 
                     <div>
