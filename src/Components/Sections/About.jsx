@@ -7,7 +7,7 @@ import Aimage from '../UI/Aimage';
 
 function About(props) {
     return (
-        <div id = "about" className='w-full mx-auto bg-zinc-950 overflow-x-hidden lg:overflow-hidden relative shadow-2xl h-240 md:h-160'>
+        <div id = "about" className='w-full mx-auto bg-zinc-950 overflow-x-hidden lg:overflow-hidden relative shadow-2xl h-270 md:h-160'>
             <div className='max-w-4xl mx-auto px-4 sm:px-6'>  
                <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>  
                     <div className='order-2 md:order-1'>   
