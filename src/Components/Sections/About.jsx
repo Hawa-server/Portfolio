@@ -34,7 +34,7 @@ function About(props) {
                     </div>
 
                     <div className='order-1 md:order-2 shadow-lg shadow-[#b89b5e]/40 hover:translate-y-2 duration-300 max-w-xs sm:max-w-sm md:max-w-none mx-auto mt-20'>
-                       <Aimage src = "/public/a.jpg"/> 
+                        <Aimage src="/a.jpg"/> 
                     </div>
                 </div>
                 
