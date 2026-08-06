@@ -15,7 +15,7 @@ function Hero(props) {
             <div className='text-[#b89b5e] text-sm sm:text-base tracking-widest mb-4 text-center'>
                 <Heading1 text = "HELLO, I'M"/>
             </div>
-            <div className='h-[1.1px] bg-[#b89b5e]/40 w-20 md:ml-200'></div>
+            <div className='h-[1.1px] bg-[#b89b5e]/40 w-20 ml-60'></div>
            </div>
            <div className='text-2xl sm:text-4xl md:text-6xl text-gray-200 mt-10 text-center px-4'>
             <Heading label = "AGYEMAN HAWA TOFFICK"/>

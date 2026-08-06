@@ -11,7 +11,7 @@ function About(props) {
             <div className='max-w-4xl mx-auto px-4 sm:px-6'>  
                <div className='grid grid-cols-1 md:grid-cols-2 gap-10 items-center'>  
                     <div className='order-2 md:order-1'>   
-                        <div className='text-[#b89b5e] text-lg sm:text-xl font-bold tracking-widest text-center md:text-left'>
+                        <div className='text-[#b89b5e] text-lg sm:text-xl font-bold tracking-widest text-center md:text-left mt-20'>
                         <Heading1 text = "ABOUT ME"/>
                         </div>
                         <div className='mt-6 md:mt-10 text-2xl sm:text-3xl text-gray-400 font-sans text-center md:text-left'>
@@ -33,7 +33,7 @@ function About(props) {
                         </div>
                     </div>
 
-                    <div className='order-1 md:order-2 shadow-lg shadow-[#b89b5e]/40 hover:translate-y-2 duration-300 max-w-xs sm:max-w-sm md:max-w-none mx-auto"'>
+                    <div className='order-1 md:order-2 shadow-lg shadow-[#b89b5e]/40 hover:translate-y-2 duration-300 max-w-xs sm:max-w-sm md:max-w-none mx-auto mt-20'>
                        <Aimage src = "/public/a.jpg"/> 
                     </div>
                 </div>
