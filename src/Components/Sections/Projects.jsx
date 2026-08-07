@@ -86,7 +86,7 @@ function Projects(props) {
                        </div>
 
 
-                        <div className='mt-7'>
+                        <div className='mt-5'>
                             <a href = "https://keeppeak.netlify.app/"
                             target = "_blank"
                             rel='noopener noreferrer' className='text-gray-300 hover:transition m-10 rounded-md py-2 px-4 border border-amber-100'>
